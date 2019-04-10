@@ -134,40 +134,50 @@ html,
 body {
   height: 100%;
 }
-.header-box {
+.resume-titles {
+  color: #000080;
+  font-size: 2.5em;
+  border-bottom: 0.5em solid #000080;
+  margin: 1em;
+  width: 15%;
+}
+.container {
+  height: 100%;
+}
+.container .header-box {
   display: flex;
   justify-content: space-evenly;
   background-color: navy;
   height: 25%;
 }
-.name-style {
+.container .name-style {
   font-size: 4em;
   color: #ffffff;
   margin: 0.5em 0;
 }
-.job-style {
+.container .job-style {
   color: #ffffff;
   font-size: 1.5em;
 }
-.profile-pic {
+.container .profile-pic {
   border-radius: 50%;
   width: 10%;
   height: 80%;
   margin: 1em;
 }
-.entire-resume {
+.container .entire-resume {
   height: 75%;
   background-color: aqua;
   display: flex;
   justify-content: baseline;
 }
-.profile-cont {
+.container .profile-cont {
   height: 100%;
   width: 40%;
   background-color: white;
 }
-.experience-cont {
+.container .experience-cont {
   height: 100%;
   width: 60%;
-  background-color: grey;
+  background-color: #DCDCDC;
 }
