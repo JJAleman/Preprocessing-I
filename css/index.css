@@ -136,7 +136,7 @@ body {
 }
 .header-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: navy;
   height: 25%;
 }
@@ -148,4 +148,26 @@ body {
 .job-style {
   color: #ffffff;
   font-size: 1.5em;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 10%;
+  height: 80%;
+  margin: 1em;
+}
+.entire-resume {
+  height: 75%;
+  background-color: aqua;
+  display: flex;
+  justify-content: baseline;
+}
+.profile-cont {
+  height: 100%;
+  width: 40%;
+  background-color: white;
+}
+.experience-cont {
+  height: 100%;
+  width: 60%;
+  background-color: grey;
 }
