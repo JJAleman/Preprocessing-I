@@ -141,6 +141,10 @@ body {
   margin: 1em;
   width: 15%;
 }
+.resume-content {
+  margin: 1em 3em ;
+  width: 40%;
+}
 .container {
   height: 100%;
 }
@@ -180,4 +184,9 @@ body {
   height: 100%;
   width: 60%;
   background-color: #DCDCDC;
+}
+@media (max-width: 500px) {
+  .container {
+    height: 100%;
+  }
 }
