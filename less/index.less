@@ -155,11 +155,12 @@ body {
 	font-size: 2.5em;
 	border-bottom: .5em solid @h3Color;
 	margin: 1em;
-	width: 15%;
+	width: 3em;
 }
+
 .resume-content {
-	margin: 1em 3em ;
-	width: 40%;
+	margin: 1em 3em;
+	width: 30em;
 }
 
 // header section
@@ -171,6 +172,27 @@ body {
 		justify-content: space-evenly;
 		background-color: navy;
 		height: 25%;
+
+		@media (max-width: 500px) {
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: baseline;
+			align-items: center;
+			padding-bottom: 2em;	
+		}
+	}
+	.profile-pic {
+		border-radius: 50%;
+		width: 10%;
+		height: 80%;
+		margin: 1em;
+
+		@media (max-width: 500px) {
+			width: 50%;
+			
+		}
 	}
 
 	.name-style {
@@ -184,12 +206,7 @@ body {
 		font-size: 1.5em;
 	}
 
-	.profile-pic {
-		border-radius: 50%;
-		width: 10%;
-		height: 80%;
-		margin: 1em;
-	}
+	
 
 	// Resume Content
 	.entire-resume {
@@ -198,10 +215,12 @@ body {
 		display: flex;
 		justify-content: baseline;
 	}
-	
+
 
 	// Profile Section
 	.profile-cont {
+		display: flex;
+		flex-direction: column;
 		height: 100%;
 		width: 40%;
 		background-color: white;
@@ -209,13 +228,16 @@ body {
 
 	// Experience Section
 	.experience-cont {
-		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: baseline;
+		align-items: baseline;
 		width: 60%;
 		background-color: #DCDCDC;
 	}
 
-	// Small Screen Media Querie
-	@media (max-width: 500px) {
-		
-	}
+	// // Small Screen Media Querie
+	// @media (max-width: 500px) {
+
+	// }
 }
