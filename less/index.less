@@ -191,7 +191,6 @@ body {
 
 		@media (max-width: 500px) {
 			width: 50%;
-			
 		}
 	}
 
@@ -206,6 +205,12 @@ body {
 		font-size: 1.5em;
 	}
 
+	.small-headers {
+		font-weight: bold;
+		font-style: italic;
+		color: @h3Color;
+	}
+
 	
 
 	// Resume Content
@@ -213,7 +218,12 @@ body {
 		height: 75%;
 		background-color: aqua;
 		display: flex;
-		justify-content: baseline;
+		flex-wrap: wrap;
+
+		@media (max-width: 500px) {
+			width: 100%;
+			display: flex;
+		}
 	}
 
 
@@ -221,9 +231,12 @@ body {
 	.profile-cont {
 		display: flex;
 		flex-direction: column;
-		height: 100%;
 		width: 40%;
 		background-color: white;
+
+		@media (max-width:500px) {
+			width: 100%;
+		}
 	}
 
 	// Experience Section
@@ -234,10 +247,10 @@ body {
 		align-items: baseline;
 		width: 60%;
 		background-color: #DCDCDC;
+
+		@media (max-width: 500px) {
+			width: 100%;
+		}
 	}
 
-	// // Small Screen Media Querie
-	// @media (max-width: 500px) {
-
-	// }
 }
