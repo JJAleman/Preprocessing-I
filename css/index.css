@@ -185,8 +185,3 @@ body {
   width: 60%;
   background-color: #DCDCDC;
 }
-@media (max-width: 500px) {
-  .container {
-    height: 100%;
-  }
-}
